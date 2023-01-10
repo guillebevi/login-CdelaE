@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(263deg, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.login{
+
+    width: 40%;
+    height: 40%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+
+
+}
+.login p{
+    font-size: 2em;
+    margin: 20px 0;
+    font-family:'Nerko One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+    
+
+}
+
+input{
+
+    width: 100%;
+    height:25% ;
+    padding: 8px 30px;
+   
+    
+}
+
+
+
+label{
+    width: 100%;
+    font-family:'Nerko One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 20px 0;
+    
+    
+
+}
+
+.boton{
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgb(85, 53, 86);
+    border-radius: 30px;
+    border: 1px solid;
+    cursor: pointer;
+    
+  
+    
+    
+}
+
+
+@media only screen and (max-width: 768px){
+.login{
+    width:100%;
+    height: 100%;
+}
+    
+.login form{
+
+    width: 95%;
+    padding: 1em;
+}
+
+
+}
+    
